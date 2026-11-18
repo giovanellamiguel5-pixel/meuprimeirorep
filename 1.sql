@@ -9,3 +9,14 @@ codigo int primary key,
 nome varchar(80),
 anoprofissional year
 );
+
+alter table jogadores
+add column nr_ranking int;
+
+desc jogadores;
+
+use torneiotenis2;
+insert into jogadores values
+
+('1', 'José','2001', '53');
+
